@@ -1,0 +1,63 @@
+a. in the login page, write the xpath for loginSessionExpired_msg, login_twoFactorContinueBtn, login_pwd_wrongMsg
+
+loginSessionExpired_msg:
+	//*[@id="modifystatus"]
+	or
+	(//*[contains(text(),'Your session has expired. Please login again')])[2]
+	or
+	/html/body/div/div/div[2]/div/div/div[2]/div/div/div/div[2]/div/span[2]
+
+login_twoFactorContinueBtn :
+	//*[@class="btn btn-primary two-factor-continue"]
+
+login_pwd_wrongMsg :
+	//*[@id="modifystatus"]
+	or
+	(//*[contains(text(),'Please correct the following error(s): User Name or Password is incorrect')])[1]
+	or
+	/html/body/div/div/div[2]/div/div/div[2]/div/div/div/div[2]/div/span[2]
+	
+b. in the admin page -> write the xpath for admin_noAdminselectedAlertMsg, admin_selectAdminCheckbox 
+
+admin_noAdminselectedAlertMsg:
+	(//*[@class = "bottom-margin"])[1]
+	or
+	//*[contains(text(),'Please select one administrator to delete')]
+	or
+	//*[@id="delete_admin_not_selected"]/div/div/div[2]/p
+	or
+	/html/body/div/div[1]/div[2]/div[2]/div/div/div/div/div/div[1]/div[2]/div[3]/div/div/div/div[2]/div/div/div[2]/p
+
+admin_selectAdminCheckbox: 
+	(//*[@class="custom-checkbox-checkmark"])[1]
+	or
+	(//*[@ id="admin_checkboxs"])[1]
+	or
+	/html/body/div/div[1]/div[2]/div[2]/div/div/div/div/div/div[1]/div[2]/div[3]/div/div/div/div[1]/div/div/div/div[1]/div/div[2]/div/div/div/div/div[1]/div[3]/div/div/div[1]/table/tbody/tr[1]/td[1]/label/span
+
+c. in the account page -> dynamic xpath for account checkboxes
+
+account checkboxes:
+	(//span[@class='custom-checkbox-checkmark'])[2]
+	or
+	(//span[@id="accounts_individual_checkbox"])[1]
+
+
+d. In the Roles and Privildges page -> write dynamic xpath for edit any existing role
+
+edit any existing role
+	(//a[contains(@href,'')][@id="fa_pencil"])[1] 
+	or
+	(//a[contains(@href,'')][@title="Edit this role"])[1]
+
+e. In the report page -> Activities -> messages -> write the dunamic xpath for rows
+
+dynamic xpath for rows :
+	//div[@class="row display-center"]
+	or
+	(//div[@class="container-fluid"])[41]
+
+
+
+
+

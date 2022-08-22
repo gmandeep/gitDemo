@@ -1,0 +1,12 @@
+1624883667717	geckodriver	INFO	Listening on 127.0.0.1:64543
+1624883672606	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-notifications" "--allow-running-insecure-content" "--ignore-certificate-errors" "start-maximized" "--window-size=1920,1080" "--enable-precise-memory-info" "--disable-popup-blocking" "--disable-notifications" "--proxy-server=8.8.8.8:8080" "-foreground" "-no-remote" "-profile" "C:\\Users\\gmandeep\\AppData\\Local\\Temp\\rust_mozprofilew56hcT"
+1624883678320	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\gmandeep\\AppData\\Local\\Temp\\rust_mozprofilew56hcT\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1624883700424	Marionette	INFO	Listening on port 50689
+1624883701927	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624883717251	Marionette	INFO	Stopped listening on port 50689
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
