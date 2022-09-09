@@ -1,0 +1,7 @@
+hybridWeb/crm/qa/pages/loginPage.class
+hybdridWeb/crm/qa/base/TestBase.class
+hybdridWeb/crm/qa/util/WebEventListener.class
+hybdridWeb/crm/qa/util/TestUtil.class
+hybridWeb/crm/qa/pages/signupPage.class
+hybridWeb/crm/qa/pages/curriculumPage.class
+hybridWeb/crm/qa/pages/dashboardPage.class

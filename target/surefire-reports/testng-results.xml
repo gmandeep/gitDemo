@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="9" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-09T21:02:27 IST" name="Surefire suite" finished-at="2022-09-09T21:07:41 IST" duration-ms="314180">
+    <groups>
+    </groups>
+    <test started-at="2022-09-09T21:02:27 IST" name="Surefire test" finished-at="2022-09-09T21:07:41 IST" duration-ms="314180">
+      <class name="hybridWeb.crm.qa.testcases.CurriculumPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:hybridWeb.crm.qa.testcases.CurriculumPageTest@290d210d]" started-at="2022-09-09T21:05:30 IST" name="setup" finished-at="2022-09-09T21:05:55 IST" duration-ms="24862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verfifycuriculumTitleTest()[pri:1, instance:hybridWeb.crm.qa.testcases.CurriculumPageTest@290d210d]" started-at="2022-09-09T21:05:55 IST" name="verfifycuriculumTitleTest" finished-at="2022-09-09T21:05:55 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfifycuriculumTitleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:hybridWeb.crm.qa.testcases.CurriculumPageTest@290d210d]" started-at="2022-09-09T21:05:55 IST" name="teardown" finished-at="2022-09-09T21:05:55 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:hybridWeb.crm.qa.testcases.CurriculumPageTest@290d210d]" started-at="2022-09-09T21:05:55 IST" name="setup" finished-at="2022-09-09T21:06:21 IST" duration-ms="25893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verfifygradeTest()[pri:2, instance:hybridWeb.crm.qa.testcases.CurriculumPageTest@290d210d]" started-at="2022-09-09T21:06:21 IST" name="verfifygradeTest" finished-at="2022-09-09T21:06:21 IST" duration-ms="83" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[grade not matched expected [Grades 5-6] but found [Grades 3-4]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: grade not matched expected [Grades 5-6] but found [Grades 3-4]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at hybridWeb.crm.qa.testcases.CurriculumPageTest.verfifygradeTest(CurriculumPageTest.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfifygradeTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:hybridWeb.crm.qa.testcases.CurriculumPageTest@290d210d]" started-at="2022-09-09T21:06:21 IST" name="teardown" finished-at="2022-09-09T21:06:22 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:hybridWeb.crm.qa.testcases.CurriculumPageTest@290d210d]" started-at="2022-09-09T21:06:22 IST" name="setup" finished-at="2022-09-09T21:06:47 IST" duration-ms="25527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifydownloadcurrTest()[pri:3, instance:hybridWeb.crm.qa.testcases.CurriculumPageTest@290d210d]" started-at="2022-09-09T21:06:47 IST" name="verifydownloadcurrTest" finished-at="2022-09-09T21:06:47 IST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifydownloadcurrTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:hybridWeb.crm.qa.testcases.CurriculumPageTest@290d210d]" started-at="2022-09-09T21:06:47 IST" name="teardown" finished-at="2022-09-09T21:06:47 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:hybridWeb.crm.qa.testcases.CurriculumPageTest@290d210d]" started-at="2022-09-09T21:06:47 IST" name="setup" finished-at="2022-09-09T21:07:17 IST" duration-ms="29791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPayMonthlyRadioTest()[pri:4, instance:hybridWeb.crm.qa.testcases.CurriculumPageTest@290d210d]" started-at="2022-09-09T21:07:17 IST" name="verifyPayMonthlyRadioTest" finished-at="2022-09-09T21:07:19 IST" duration-ms="1945" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element is not clickable at point (876, 991)
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'mandeeps-MacBook-Air.local', ip: '2401:4900:1f33:aa9c:4d5:146c:d7bf:cd62%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5.2', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b3094a7615327dba598b6dbfa4ee326, clickElement {id=4e5bef1a-106e-467d-a5c6-62133cefc49c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: /var/folders/g3/l59l2wlx2jx...}, goog:chromeOptions: {debuggerAddress: localhost:50087}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50087/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (0b3094a7615327dba598b6dbfa4ee326)] -> css selector: input.css-1gy22ay[value="MONTHLY"]]
+Session ID: 0b3094a7615327dba598b6dbfa4ee326]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (876, 991)
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'mandeeps-MacBook-Air.local', ip: '2401:4900:1f33:aa9c:4d5:146c:d7bf:cd62%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5.2', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b3094a7615327dba598b6dbfa4ee326, clickElement {id=4e5bef1a-106e-467d-a5c6-62133cefc49c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: /var/folders/g3/l59l2wlx2jx...}, goog:chromeOptions: {debuggerAddress: localhost:50087}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50087/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (0b3094a7615327dba598b6dbfa4ee326)] -> css selector: input.css-1gy22ay[value="MONTHLY"]]
+Session ID: 0b3094a7615327dba598b6dbfa4ee326
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:377)
+at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:390)
+at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+at hybridWeb.crm.qa.pages.curriculumPage.checkradiopaymonthly(curriculumPage.java:49)
+at hybridWeb.crm.qa.testcases.CurriculumPageTest.verifyPayMonthlyRadioTest(CurriculumPageTest.java:69)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPayMonthlyRadioTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:hybridWeb.crm.qa.testcases.CurriculumPageTest@290d210d]" started-at="2022-09-09T21:07:19 IST" name="teardown" finished-at="2022-09-09T21:07:19 IST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- hybridWeb.crm.qa.testcases.CurriculumPageTest -->
+      <class name="hybridWeb.crm.qa.testcases.dashboardPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:hybridWeb.crm.qa.testcases.dashboardPageTest@4b44655e]" started-at="2022-09-09T21:03:51 IST" name="setup" finished-at="2022-09-09T21:04:14 IST" duration-ms="22608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verfifydashTitleTest()[pri:1, instance:hybridWeb.crm.qa.testcases.dashboardPageTest@4b44655e]" started-at="2022-09-09T21:04:14 IST" name="verfifydashTitleTest" finished-at="2022-09-09T21:04:17 IST" duration-ms="3364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfifydashTitleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:hybridWeb.crm.qa.testcases.dashboardPageTest@4b44655e]" started-at="2022-09-09T21:04:17 IST" name="teardown" finished-at="2022-09-09T21:04:17 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:hybridWeb.crm.qa.testcases.dashboardPageTest@4b44655e]" started-at="2022-09-09T21:04:17 IST" name="setup" finished-at="2022-09-09T21:04:41 IST" duration-ms="24053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifydashTextTest()[pri:2, instance:hybridWeb.crm.qa.testcases.dashboardPageTest@4b44655e]" started-at="2022-09-09T21:04:41 IST" name="verifydashTextTest" finished-at="2022-09-09T21:04:43 IST" duration-ms="2196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifydashTextTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:hybridWeb.crm.qa.testcases.dashboardPageTest@4b44655e]" started-at="2022-09-09T21:04:43 IST" name="teardown" finished-at="2022-09-09T21:04:43 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:hybridWeb.crm.qa.testcases.dashboardPageTest@4b44655e]" started-at="2022-09-09T21:04:43 IST" name="setup" finished-at="2022-09-09T21:05:04 IST" duration-ms="20978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifydashUserTest()[pri:3, instance:hybridWeb.crm.qa.testcases.dashboardPageTest@4b44655e]" started-at="2022-09-09T21:05:04 IST" name="verifydashUserTest" finished-at="2022-09-09T21:05:06 IST" duration-ms="1846" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[username of dashboard didnt match expected [Your Dashboard learningpython11@gmail.com] but found [Your Dashboard
+learningpython11@gmail.com]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: username of dashboard didnt match expected [Your Dashboard learningpython11@gmail.com] but found [Your Dashboard
+learningpython11@gmail.com]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at hybridWeb.crm.qa.testcases.dashboardPageTest.verifydashUserTest(dashboardPageTest.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifydashUserTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:hybridWeb.crm.qa.testcases.dashboardPageTest@4b44655e]" started-at="2022-09-09T21:05:06 IST" name="teardown" finished-at="2022-09-09T21:05:06 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:hybridWeb.crm.qa.testcases.dashboardPageTest@4b44655e]" started-at="2022-09-09T21:05:06 IST" name="setup" finished-at="2022-09-09T21:05:28 IST" duration-ms="21160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifycurriculumLinkTest()[pri:4, instance:hybridWeb.crm.qa.testcases.dashboardPageTest@4b44655e]" started-at="2022-09-09T21:05:28 IST" name="verifycurriculumLinkTest" finished-at="2022-09-09T21:05:30 IST" duration-ms="2533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycurriculumLinkTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:hybridWeb.crm.qa.testcases.dashboardPageTest@4b44655e]" started-at="2022-09-09T21:05:30 IST" name="teardown" finished-at="2022-09-09T21:05:30 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- hybridWeb.crm.qa.testcases.dashboardPageTest -->
+      <class name="hybridWeb.crm.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:hybridWeb.crm.qa.testcases.LoginPageTest@1d76aeea]" started-at="2022-09-09T21:07:19 IST" name="setup" finished-at="2022-09-09T21:07:35 IST" duration-ms="15546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:hybridWeb.crm.qa.testcases.LoginPageTest@1d76aeea]" started-at="2022-09-09T21:07:35 IST" name="login" finished-at="2022-09-09T21:07:41 IST" duration-ms="6503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:hybridWeb.crm.qa.testcases.LoginPageTest@1d76aeea]" started-at="2022-09-09T21:07:41 IST" name="teardown" finished-at="2022-09-09T21:07:41 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- hybridWeb.crm.qa.testcases.LoginPageTest -->
+      <class name="hybridWeb.crm.qa.testcases.SignUpPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:hybridWeb.crm.qa.testcases.SignUpPageTest@14ec4505]" started-at="2022-09-09T21:02:34 IST" name="setup" finished-at="2022-09-09T21:02:57 IST" duration-ms="23292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySignupTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:hybridWeb.crm.qa.testcases.SignUpPageTest@14ec4505]" started-at="2022-09-09T21:02:57 IST" name="verifySignupTest" data-provider="getTestData" finished-at="2022-09-09T21:03:01 IST" duration-ms="3597" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testUserAuto1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.880000001E9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[auto.user1@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignupTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:hybridWeb.crm.qa.testcases.SignUpPageTest@14ec4505]" started-at="2022-09-09T21:03:01 IST" name="teardown" finished-at="2022-09-09T21:03:01 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:hybridWeb.crm.qa.testcases.SignUpPageTest@14ec4505]" started-at="2022-09-09T21:03:01 IST" name="setup" finished-at="2022-09-09T21:03:23 IST" duration-ms="22179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySignupTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:hybridWeb.crm.qa.testcases.SignUpPageTest@14ec4505]" started-at="2022-09-09T21:03:23 IST" name="verifySignupTest" data-provider="getTestData" finished-at="2022-09-09T21:03:26 IST" duration-ms="3565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testUserAuto2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.880000002E9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[auto.user2@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignupTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:hybridWeb.crm.qa.testcases.SignUpPageTest@14ec4505]" started-at="2022-09-09T21:03:26 IST" name="teardown" finished-at="2022-09-09T21:03:27 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:hybridWeb.crm.qa.testcases.SignUpPageTest@14ec4505]" started-at="2022-09-09T21:03:27 IST" name="setup" finished-at="2022-09-09T21:03:48 IST" duration-ms="21243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySignupTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:hybridWeb.crm.qa.testcases.SignUpPageTest@14ec4505]" started-at="2022-09-09T21:03:48 IST" name="verifySignupTest" data-provider="getTestData" finished-at="2022-09-09T21:03:51 IST" duration-ms="2941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testUserAuto3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.880000003E9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[auto.user3@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignupTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:hybridWeb.crm.qa.testcases.SignUpPageTest@14ec4505]" started-at="2022-09-09T21:03:51 IST" name="teardown" finished-at="2022-09-09T21:03:51 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- hybridWeb.crm.qa.testcases.SignUpPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Campk12" class="navigator-link">
+              <span class="suite-name border-failed">Campk12</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Campk12" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Campk12" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Campk12" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Campk12" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Campk12" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Campk12" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Campk12" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 3 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Campk12" class="hide-methods failed suite-Campk12"> (hide)</a> <!-- hide-methods failed suite-Campk12 -->
+                      <a href="#" panel-name="suite-Campk12" class="show-methods failed suite-Campk12"> (show)</a> <!-- show-methods failed suite-Campk12 -->
+                    </span>
+                    <div class="method-list-content failed suite-Campk12">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Campk12" title="hybridWeb.crm.qa.testcases.CurriculumPageTest" class="method navigator-link" hash-for-method="verfifygradeTest">verfifygradeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Campk12" title="hybridWeb.crm.qa.testcases.CurriculumPageTest" class="method navigator-link" hash-for-method="verifyPayMonthlyRadioTest">verifyPayMonthlyRadioTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Campk12" title="hybridWeb.crm.qa.testcases.dashboardPageTest" class="method navigator-link" hash-for-method="verifydashUserTest">verifydashUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Campk12 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Campk12" class="hide-methods passed suite-Campk12"> (hide)</a> <!-- hide-methods passed suite-Campk12 -->
+                      <a href="#" panel-name="suite-Campk12" class="show-methods passed suite-Campk12"> (show)</a> <!-- show-methods passed suite-Campk12 -->
+                    </span>
+                    <div class="method-list-content passed suite-Campk12">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Campk12" title="hybridWeb.crm.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Campk12" title="hybridWeb.crm.qa.testcases.CurriculumPageTest" class="method navigator-link" hash-for-method="verfifycuriculumTitleTest">verfifycuriculumTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Campk12" title="hybridWeb.crm.qa.testcases.dashboardPageTest" class="method navigator-link" hash-for-method="verfifydashTitleTest">verfifydashTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Campk12" title="hybridWeb.crm.qa.testcases.dashboardPageTest" class="method navigator-link" hash-for-method="verifycurriculumLinkTest">verifycurriculumLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Campk12" title="hybridWeb.crm.qa.testcases.dashboardPageTest" class="method navigator-link" hash-for-method="verifydashTextTest">verifydashTextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Campk12" title="hybridWeb.crm.qa.testcases.CurriculumPageTest" class="method navigator-link" hash-for-method="verifydownloadcurrTest">verifydownloadcurrTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Campk12 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Campk12" class="panel Campk12">
+          <div class="suite-Campk12-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">hybridWeb.crm.qa.testcases.dashboardPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifydashUserTest">
+                  </a> <!-- verifydashUserTest -->
+                  <span class="method-name">verifydashUserTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: username of dashboard didnt match expected [Your Dashboard learningpython11@gmail.com] but found [Your Dashboard
+learningpython11@gmail.com]
+	at hybridWeb.crm.qa.testcases.dashboardPageTest.verifydashUserTest(dashboardPageTest.java:62)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Campk12-class-failed -->
+          <div class="suite-Campk12-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">hybridWeb.crm.qa.testcases.CurriculumPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verfifygradeTest">
+                  </a> <!-- verfifygradeTest -->
+                  <span class="method-name">verfifygradeTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: grade not matched expected [Grades 5-6] but found [Grades 3-4]
+	at hybridWeb.crm.qa.testcases.CurriculumPageTest.verfifygradeTest(CurriculumPageTest.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPayMonthlyRadioTest">
+                  </a> <!-- verifyPayMonthlyRadioTest -->
+                  <span class="method-name">verifyPayMonthlyRadioTest</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (876, 991)
+  (Session info: chrome=105.0.5195.102)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;mandeeps-MacBook-Air.local&apos;, ip: &apos;2401:4900:1f33:aa9c:4d5:146c:d7bf:cd62%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.5.2&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5e7fc8cf61ecd3c8ddbeef707f9807bc, clickElement {id=98d2dcff-e55e-4742-ad87-08c75e232701}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: /var/folders/g3/l59l2wlx2jx...}, goog:chromeOptions: {debuggerAddress: localhost:56883}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:56883/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (5e7fc8cf61ecd3c8ddbeef707f9807bc)] -&gt; css selector: input.css-1gy22ay[value=&quot;MONTHLY&quot;]]
+Session ID: 5e7fc8cf61ecd3c8ddbeef707f9807bc
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:377)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:390)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at hybridWeb.crm.qa.pages.curriculumPage.checkradiopaymonthly(curriculumPage.java:49)
+	at hybridWeb.crm.qa.testcases.CurriculumPageTest.verifyPayMonthlyRadioTest(CurriculumPageTest.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Campk12-class-failed -->
+          <div class="suite-Campk12-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">hybridWeb.crm.qa.testcases.dashboardPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verfifydashTitleTest">
+                  </a> <!-- verfifydashTitleTest -->
+                  <span class="method-name">verfifydashTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifycurriculumLinkTest">
+                  </a> <!-- verifycurriculumLinkTest -->
+                  <span class="method-name">verifycurriculumLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifydashTextTest">
+                  </a> <!-- verifydashTextTest -->
+                  <span class="method-name">verifydashTextTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Campk12-class-passed -->
+          <div class="suite-Campk12-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">hybridWeb.crm.qa.testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Campk12-class-passed -->
+          <div class="suite-Campk12-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">hybridWeb.crm.qa.testcases.CurriculumPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verfifycuriculumTitleTest">
+                  </a> <!-- verfifycuriculumTitleTest -->
+                  <span class="method-name">verfifycuriculumTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifydownloadcurrTest">
+                  </a> <!-- verifydownloadcurrTest -->
+                  <span class="method-name">verifydownloadcurrTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Campk12-class-passed -->
+        </div> <!-- panel Campk12 -->
+        <div panel-name="test-xml-Campk12" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/mandeep/eclipse-workspace/hybridWeb/src/main/resources/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Campk12&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;hybridWeb.crm.qa.ExtentReportlisterner.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Student Dashboard&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;hybridWeb.crm.qa.testcases.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;hybridWeb.crm.qa.testcases.dashboardPageTest&quot;/&gt;
+      &lt;class name=&quot;hybridWeb.crm.qa.testcases.CurriculumPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Student Dashboard --&gt;
+&lt;/suite&gt; &lt;!-- Campk12 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Campk12" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Campk12</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Student Dashboard (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Campk12" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Campk12</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Campk12" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Campk12</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Campk12');
+function tableData_Campk12() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'login')
+data.setCell(0, 2, 'hybridWeb.crm.qa.testcases.LoginPageTest')
+data.setCell(0, 3, 5300);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifycurriculumLinkTest')
+data.setCell(1, 2, 'hybridWeb.crm.qa.testcases.dashboardPageTest')
+data.setCell(1, 3, 2849);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verfifydashTitleTest')
+data.setCell(2, 2, 'hybridWeb.crm.qa.testcases.dashboardPageTest')
+data.setCell(2, 3, 2135);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyPayMonthlyRadioTest')
+data.setCell(3, 2, 'hybridWeb.crm.qa.testcases.CurriculumPageTest')
+data.setCell(3, 3, 1906);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifydashTextTest')
+data.setCell(4, 2, 'hybridWeb.crm.qa.testcases.dashboardPageTest')
+data.setCell(4, 3, 1527);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifydashUserTest')
+data.setCell(5, 2, 'hybridWeb.crm.qa.testcases.dashboardPageTest')
+data.setCell(5, 3, 1283);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifydownloadcurrTest')
+data.setCell(6, 2, 'hybridWeb.crm.qa.testcases.CurriculumPageTest')
+data.setCell(6, 3, 149);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verfifygradeTest')
+data.setCell(7, 2, 'hybridWeb.crm.qa.testcases.CurriculumPageTest')
+data.setCell(7, 3, 86);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verfifycuriculumTitleTest')
+data.setCell(8, 2, 'hybridWeb.crm.qa.testcases.CurriculumPageTest')
+data.setCell(8, 3, 34);
+window.suiteTableData['Campk12']= { tableData: data, tableDiv: 'times-div-Campk12'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <div id="times-div-Campk12">
+              </div> <!-- times-div-Campk12 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Campk12" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Campk12</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Campk12" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Campk12" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">hybridWeb.crm.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">21923 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">27231 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">hybridWeb.crm.qa.testcases.dashboardPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">27421 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verfifydashTitleTest</span>
+                <span class="method-start">51548 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">53690 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">54037 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifydashTextTest</span>
+                <span class="method-start">77894 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">79425 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">79589 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifydashUserTest</span>
+                <span class="method-start">101487 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">102783 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">102942 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifycurriculumLinkTest</span>
+                <span class="method-start">125824 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">128676 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">hybridWeb.crm.qa.testcases.CurriculumPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">128905 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verfifycuriculumTitleTest</span>
+                <span class="method-start">155201 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">155246 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">155378 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verfifygradeTest</span>
+                <span class="method-start">181069 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">181169 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">181302 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifydownloadcurrTest</span>
+                <span class="method-start">207728 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">207881 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">207943 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyPayMonthlyRadioTest</span>
+                <span class="method-start">236676 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">238595 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

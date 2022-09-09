@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Campk12">
+  <test name="Student Dashboard">
+    <classes>
+      <class name="hybridWeb.crm.qa.testcases.LoginPageTest"/>
+      <class name="hybridWeb.crm.qa.testcases.dashboardPageTest"/>
+        <class name="hybridWeb.crm.qa.testcases.CurriculumPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

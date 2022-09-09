@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 320.205 s <<< FAILURE! - in TestSuite
+verifydashUserTest(hybridWeb.crm.qa.testcases.dashboardPageTest)  Time elapsed: 1.869 s  <<< FAILURE!
+java.lang.AssertionError: 
+username of dashboard didnt match expected [Your Dashboard learningpython11@gmail.com] but found [Your Dashboard
+learningpython11@gmail.com]
+	at hybridWeb.crm.qa.testcases.dashboardPageTest.verifydashUserTest(dashboardPageTest.java:62)
+
+verfifygradeTest(hybridWeb.crm.qa.testcases.CurriculumPageTest)  Time elapsed: 0.082 s  <<< FAILURE!
+java.lang.AssertionError: grade not matched expected [Grades 5-6] but found [Grades 3-4]
+	at hybridWeb.crm.qa.testcases.CurriculumPageTest.verfifygradeTest(CurriculumPageTest.java:56)
+
+verifyPayMonthlyRadioTest(hybridWeb.crm.qa.testcases.CurriculumPageTest)  Time elapsed: 1.946 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (876, 991)
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'mandeeps-MacBook-Air.local', ip: '2401:4900:1f33:aa9c:4d5:146c:d7bf:cd62%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5.2', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b3094a7615327dba598b6dbfa4ee326, clickElement {id=4e5bef1a-106e-467d-a5c6-62133cefc49c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: /var/folders/g3/l59l2wlx2jx...}, goog:chromeOptions: {debuggerAddress: localhost:50087}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50087/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (0b3094a7615327dba598b6dbfa4ee326)] -> css selector: input.css-1gy22ay[value="MONTHLY"]]
+Session ID: 0b3094a7615327dba598b6dbfa4ee326
+	at hybridWeb.crm.qa.testcases.CurriculumPageTest.verifyPayMonthlyRadioTest(CurriculumPageTest.java:69)
+
